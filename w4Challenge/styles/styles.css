@@ -1,0 +1,14 @@
+body {
+    background-color: pink;
+    text-align: center;
+}
+ol p.gospel {
+    font-weight: bold;
+}
+img{
+    width: 10%;
+    margin: 0 auto;
+}
+#active{
+    background-color: pink;
+}
