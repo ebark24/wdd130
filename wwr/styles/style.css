@@ -30,7 +30,7 @@ main section {
     background-color: #DAD7CD ;
 }
 font {
-    size: 22px;
+    resize: 22px;
 }
 
 body {
