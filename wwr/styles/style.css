@@ -221,6 +221,40 @@ main section img {
     transform: scale(1.1);
 }
 
+.accordion {
+    background-color: #DAD7CD;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+.panel {
+    padding: 0 18px;
+    background-color: #A3B18A;
+    display: none;
+    overflow: hidden;
+    color: black;
+  }
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #A3B18A;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
