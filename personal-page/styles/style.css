@@ -183,3 +183,11 @@ h1:hover{
     grid-row: 1/2;
     margin-top: 300px;
 }
+
+#home-audit-img{
+    width: 100%;
+}
+
+#home-tax-img{
+    width: 100%;
+}
