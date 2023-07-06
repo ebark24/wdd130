@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Tax</title>
 </head>
 <body>
     <div id = "content">
@@ -23,13 +24,35 @@
                 <h1>Tax</h1>
                 <p>Everyone has to file their taxes and it can often be tricky to know how exactly to file them correctly and how to receive the greatest amount of savings when filing taxes. From your 1040s and your W2s to your schedule Cs we cover everything tax related. Make your tax experience an effortless and enjoyable experience. Our tax experts will help you to identify the proper forms and schedules to fill out and will ensure that you receive the deductions and credits that you deserve. You can contact one of our tax professionals by calling us or by sending us an email.</p>
             </section>
-            <section class = "tax-drop-down">
-                <h1>Type of services</h1>
-                <h3>Individuals</h3>
+            <main class="Question Dropdown">
+                <button class="accordion">Businesses</button>
+                <div class="panel">
+                    <p>Organizing and filing taxes is essential to every business. Let us help you with and take the weight off your shoulders during the busy season with our tax experts. We make sure that you get the proper forms and credits applied to reduce your tax as much as possible.</p>
+                </div>
+                
+                <button class="accordion">Individuals</button>
+                <div class="panel">
                 <p>It is easy to get lost in the many different forms and  complexities of tax. Our tax team makes these problems a breeze and ensures that you get the tax credits and deductions that you deserve. For individuals the main focus will be on your 1040 with experience in W2s and 1099s. Please contact us with any questions that you may have!</p>
-                <h3>Businesses</h3>
-                <p>Organizing and filing taxes is essential to every business. Let us help you with and take the weight off your shoulders during the busy season with our tax experts. We make sure that you get the proper forms and credits applied to reduce your tax as much as possible.</p>
-            </section>
+                </div>
+                <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+                    for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                        /* Toggle between adding and removing the "active" class,
+                        to highlight the button that controls the panel */
+                        this.classList.toggle("active");
+        
+                        /* Toggle between hiding and showing the active panel */
+                        var panel = this.nextElementSibling;
+                        if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                        } else {
+                        panel.style.display = "block";
+                        }
+                    });
+        }
+                </script>
         </main>
         <footer>
             <p>
