@@ -192,6 +192,10 @@ h1:hover{
     width: 100%;
 }
 
+#tax-home-banner {
+    width: 50%;
+}
+
 .accordion {
     background-color: #DAD7CD;
     color: #444;
