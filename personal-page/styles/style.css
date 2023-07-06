@@ -176,12 +176,17 @@ h1:hover{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
+    margin-bottom: 100px;
 }
 
-.banner-msg {
+.banner-msg, .tax-banner-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 300px;
+}
+
+.tax-banner-msg{
+    margin-top: 200px;
 }
 
 #home-audit-img{
