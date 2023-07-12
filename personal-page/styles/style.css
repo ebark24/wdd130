@@ -141,6 +141,33 @@ main section img {
     grid-template-columns: 1fr 1fr;
 }
 
+#audit-team{
+    width: 100%;
+}
+
+#audit-why{
+    width: 100%;
+}
+
+.audit-contact{
+    margin-top: 100px;
+    margin-bottom: -200px;
+}
+.tax-banner-msg p {
+    color: white;
+}
+
+.tax-contact{
+    margin-bottom: -200px;
+}
+
+.main-audit{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    height: 200px;
+}
+
 .home-tax{
     display: grid;
     grid-template-columns: 1fr 1fr;
